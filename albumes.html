@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Álbumes Destacados - Sebs Jazz</title>
+  <link href="bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body { background-color: #0d0d0d; color: #fff; }
+    .navbar { background-color: #000; }
+    .navbar-brand { color: gold; font-weight: bold; }
+    h1, h2 { color: gold; }
+    .card { background-color: #001f3f; color: #fff; border: none; }
+    .card img { height: 250px; object-fit: cover; }
+    .btn-jazz { background-color: gold; color: #000; font-weight: bold; }
+  </style>
+</head>
+<body>
+   <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">🎷 Sebs Jazz</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="Menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="artistas.html">Artistas</a></li>
+          <li class="nav-item"><a class="nav-link" href="albumes.html">Álbumes</a></li>
+          <li class="nav-item"><a class="nav-link" href="reproductor.html">Reproductor</a></li>
+          <li class="nav-item"><a class="nav-link" href="eventos.html">Eventos</a></li>
+          <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+          <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+          <li class="nav-item"><a class="nav-link" href="listas.html">Listas</a></li>
+          <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="acerca.html">Acerca de</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Encabezado -->
+  <header class="text-center py-5">
+    <h1 class="fw-bold">Álbumes Destacados</h1>
+    <p class="lead text-warning">Explora los discos más influyentes de la historia del jazz.</p>
+  </header>
+
+  <!-- Sección de Álbumes -->
+  <section class="container my-5">
+    <div class="row">
+      <!-- Kind of Blue -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm h-100">
+          <img src="./bootstrap-5.3.8-dist/img/kind-of-blue.jpg" class="card-img-top" alt="Kind of Blue">
+          <div class="card-body text-center">
+            <h5 class="card-title">Kind of Blue</h5>
+            <p class="card-text">Miles Davis revolucionó el jazz modal con este álbum de 1959.</p>
+            <a href="#" class="btn btn-jazz">Escuchar</a>
+          </div>
+        </div>
+      </div>
+      <!-- In the Wee Small Hours -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm h-100">
+          <img src="./bootstrap-5.3.8-dist/img/wee-small-hours.jpg" class="card-img-top" alt="In the Wee Small Hours">
+          <div class="card-body text-center">
+            <h5 class="card-title">In the Wee Small Hours</h5>
+            <p class="card-text">Frank Sinatra marcó un hito con este álbum conceptual de 1955.</p>
+            <a href="#" class="btn btn-jazz">Escuchar</a>
+          </div>
+        </div>
+      </div>
+      <!-- Louis Armstrong Plays W.C. Handy -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm h-100">
+          <img src="./bootstrap-5.3.8-dist/img/armstrong-handy.jpg" class="card-img-top" alt="Louis Armstrong Plays W.C. Handy">
+          <div class="card-body text-center">
+            <h5 class="card-title">Plays W.C. Handy</h5>
+            <p class="card-text">Louis Armstrong rinde homenaje al “Padre del Blues” en este clásico de 1954.</p>
+            <a href="#" class="btn btn-jazz">Escuchar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center py-3">
+    © 2026 Sebs Jazz | Todos los derechos reservados.
+  </footer>
+</body>
+</html>

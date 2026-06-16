@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería Multimedia - Sebs Jazz</title>
+  <link href="bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body { background-color: #0d0d0d; color: #fff; }
+    .navbar { background-color: #000; }
+    .navbar-brand { color: gold; font-weight: bold; }
+    h1, h2 { color: gold; }
+    .card { background-color: #001f3f; color: #fff; border: none; }
+    .card img { height: 200px; object-fit: cover; }
+    video { width: 100%; border-radius: 8px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+   <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">🎷 Sebs Jazz</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="Menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="artistas.html">Artistas</a></li>
+          <li class="nav-item"><a class="nav-link" href="albumes.html">Álbumes</a></li>
+          <li class="nav-item"><a class="nav-link" href="reproductor.html">Reproductor</a></li>
+          <li class="nav-item"><a class="nav-link" href="eventos.html">Eventos</a></li>
+          <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+          <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+          <li class="nav-item"><a class="nav-link" href="listas.html">Listas</a></li>
+          <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="acerca.html">Acerca de</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Encabezado -->
+  <header class="text-center py-5">
+    <h1 class="fw-bold">Galería Multimedia</h1>
+    <p class="lead text-warning">Explora imágenes y videos que capturan la esencia del jazz.</p>
+  </header>
+
+  <!-- Sección de Imágenes -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Imágenes</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm h-100">
+          <img src="./bootstrap-5.3.8-dist/img/jazz-band.jpg" class="card-img-top" alt="Banda de Jazz">
+          <div class="card-body text-center">
+            <p class="card-text">Banda clásica de jazz en vivo.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm h-100">
+          <img src="./bootstrap-5.3.8-dist/img/jazz-club.jpg" class="card-img-top" alt="Club de Jazz">
+          <div class="card-body text-center">
+            <p class="card-text">Ambiente elegante en un club de jazz.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm h-100">
+          <img src="./bootstrap-5.3.8-dist/img/jazz-sax.jpg" class="card-img-top" alt="Saxofonista">
+          <div class="card-body text-center">
+            <p class="card-text">Saxofonista improvisando en concierto.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Videos -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Videos</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm h-100 p-3">
+          <h5 class="card-title text-center">Miles Davis en concierto</h5>
+          <video controls>
+            <source src="./bootstrap-5.3.8-dist/videos/miles.mp4" type="video/mp4">
+            Tu navegador no soporta el reproductor de video.
+          </video>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm h-100 p-3">
+          <h5 class="card-title text-center">Louis Armstrong - What a Wonderful World</h5>
+          <video controls>
+            <source src="./bootstrap-5.3.8-dist/videos/armstrong.mp4" type="video/mp4">
+            Tu navegador no soporta el reproductor de video.
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center py-3">
+    © 2026 Sebs Jazz | Todos los derechos reservados.
+  </footer>
+</body>
+</html>

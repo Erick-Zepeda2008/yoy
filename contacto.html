@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Sebs Jazz</title>
+  <link href="bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body { background-color: #0d0d0d; color: #fff; }
+    .navbar { background-color: #000; }
+    .navbar-brand { color: gold; font-weight: bold; }
+    h1, h2 { color: gold; }
+    .form-control { background-color: #001f3f; color: #fff; border: none; }
+    .form-control::placeholder { color: #ccc; }
+    .btn-jazz { background-color: gold; color: #000; font-weight: bold; }
+  </style>
+</head>
+<body>
+   <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">🎷 Sebs Jazz</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="Menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="artistas.html">Artistas</a></li>
+          <li class="nav-item"><a class="nav-link" href="albumes.html">Álbumes</a></li>
+          <li class="nav-item"><a class="nav-link" href="reproductor.html">Reproductor</a></li>
+          <li class="nav-item"><a class="nav-link" href="eventos.html">Eventos</a></li>
+          <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+          <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+          <li class="nav-item"><a class="nav-link" href="listas.html">Listas</a></li>
+          <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="acerca.html">Acerca de</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Encabezado -->
+  <header class="text-center py-5">
+    <h1 class="fw-bold">Contacto</h1>
+    <p class="lead text-warning">¿Tienes dudas, sugerencias o quieres reservar? Escríbenos aquí.</p>
+  </header>
+
+  <!-- Formulario de Contacto -->
+  <section class="container my-5">
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+      </div>
+      <div class="col-md-6">
+        <label for="email" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="email" placeholder="ejemplo@correo.com">
+      </div>
+      <div class="col-12">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..."></textarea>
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-jazz">Enviar</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Información adicional -->
+  <section class="container text-center my-5">
+    <h2>Información de contacto</h2>
+    <p>📍 Dirección: León, Nicaragua</p>
+    <p>📞 Teléfono: +505 2222-3333</p>
+    <p>✉️ Correo: contacto@sebsjazz.com</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center py-3">
+    © 2026 Sebs Jazz | Todos los derechos reservados.
+  </footer>
+</body>
+</html>
