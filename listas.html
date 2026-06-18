@@ -132,6 +132,22 @@
     </div>
   </section>
 
+  <script>
+  const audios = document.querySelectorAll("audio");
+
+  audios.forEach(audio => {
+    audio.addEventListener("play", () => {
+      audios.forEach(other => {
+        if (other !== audio) {
+          other.pause();
+        }
+      });
+    });
+  });
+</script>
+</body>
+</html>
+
   <!-- Footer -->
   <footer class="bg-black text-white text-center py-3">
     © 2026 Sebs Jazz | Todos los derechos reservados.
